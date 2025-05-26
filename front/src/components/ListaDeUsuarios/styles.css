@@ -1,0 +1,75 @@
+.lista-usuarios-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem 3rem;
+  background-color: #1a1a1a; /* fundo escuro */
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  font-family: Arial, sans-serif;
+  color: #ffdd00; /* amarelo vibrante */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.btn-cadastrar {
+  display: block;
+  margin: 1.5rem auto 2rem auto;
+  padding: 1rem 2rem;
+  max-width: 250px;
+  width: 100%;
+  background-color: #a50034;
+  color: #ffdd00;
+  font-weight: 900;
+  font-size: 1.3rem;
+  border: 2px solid #ffdd00;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(165, 0, 52, 0.9);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  text-align: center;
+  user-select: none;
+}
+
+.btn-cadastrar:hover {
+  background-color: #ff1a54;
+  box-shadow: 0 10px 20px rgba(255, 29, 81, 0.95);
+  transform: scale(1.1);
+  border-color: #fff600;
+  color: #fff600;
+}
+
+.btn-cadastrar:focus {
+  outline: 4px solid #ffdd00;
+  outline-offset: 3px;
+}
+
+.lista-usuarios {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.lista-usuarios li {
+  background-color: #2c2c2c;
+  border-left: 6px solid #003fc5;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+  color: #fff;
+  transition: transform 0.2s ease;
+  word-break: break-word;
+}
+
+.lista-usuarios li:hover {
+  transform: scale(1.04);
+  background-color: #003fc5;
+  color: #ffdd00;
+}
+
+.lista-usuarios strong {
+  color: #ffdd00;
+  display: inline-block;
+  width: 160px;
+}

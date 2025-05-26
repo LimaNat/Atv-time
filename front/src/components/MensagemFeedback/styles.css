@@ -1,0 +1,35 @@
+/* src/components/MensagemFeedback/styles.css */
+
+.mensagem {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin: 1rem auto;
+  max-width: 600px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.sucesso {
+  background-color: #28a745;
+}
+
+.erro {
+  background-color: #dc3545;
+}
+
+.visivel {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.mensagem:not(.visivel) {
+  opacity: 0;
+  transform: scale(0.95);
+  pointer-events: none;
+}

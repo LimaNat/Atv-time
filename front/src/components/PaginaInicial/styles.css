@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #002D59, #A50044);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pagina-inicial-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.content-wrapper {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    max-width: 500px;
+    width: 90%;
+    backdrop-filter: blur(5px);
+}
+
+.logo {
+    width: 140px;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FDB813;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn.primary {
+    background-color: #FDB813;
+    color: #002D59;
+}
+
+.btn.primary:hover {
+    background-color: #e0a80f;
+    transform: scale(1.05);
+}
+
+.btn.secondary {
+    background-color: #DA291C;
+    color: #FFFFFF;
+}
+
+.btn.secondary:hover {
+    background-color: #b71f15;
+    transform: scale(1.05);
+}
